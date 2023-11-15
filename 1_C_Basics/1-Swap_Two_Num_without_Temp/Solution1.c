@@ -9,12 +9,12 @@
 void main ()
 {
 	
-	float  Num1 , Num2 ;
+	int  Num1 , Num2 ;
 	
 	printf ("Enter value of Num1 :");
-	scanf  ("%f" , &Num1 );
+	scanf  ("%i" , &Num1 );
 	printf ("Enter value of Num2 :");
-	scanf  ("%f" , &Num2 );
+	scanf  ("%i" , &Num2 );
 	printf ("\n");
 	
 	
@@ -22,8 +22,8 @@ void main ()
 	Num2 = Num1  ^  Num2 ;
 	Num1 = Num1  ^  Num2 ;
 	
-	printf ("After swappin , the value of Num1 = %f\n",Num1);
-	printf ("After swappin , the value of Num2 = %f\n",Num2);
+	printf ("After swappin , the value of Num1 = %i\n",Num1);
+	printf ("After swappin , the value of Num2 = %i\n",Num2);
 	
 	
 	
